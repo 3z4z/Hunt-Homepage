@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/venobox.min.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reponsive.css">
 </head>
 <body>
     <!-- this is navbar part -->
@@ -27,6 +28,7 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <p class="mini-toggle" href="#"><i class="fa-solid fa-bars d-lg-none"></i></p>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto">
                     <a href="#" class="nav-link">Home</a>
@@ -38,6 +40,29 @@
                 </div>
             </div>
         </div>
+        <ul class="mini-toggle-list d-lg-none">
+            <li>
+                <p href="" class="cross"><i class="fa-solid fa-xmark"></i></p>
+            </li>
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#aboutUs">About us</a>
+            </li>
+            <li>
+                <a href="#portfolio">Our Portfolio</a>
+            </li>
+            <li>
+                <a href="#test">Testimonial</a>
+            </li>
+            <li>
+                <a href="#pricing">Pricing Plan</a>
+            </li>
+            <li>
+                <a href="#footer">Contact us</a>
+            </li>
+        </ul>
     </nav>
     <!-- this is banner part -->
     <section id="banner">
@@ -86,11 +111,11 @@
                 <div class="ban-overlay"></div>
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#banner-main" data-bs-slide="prev">
+            <button class="slider-buttons carousel-control-prev" type="button" data-bs-target="#banner-main" data-bs-slide="prev">
               <i class="fa-solid fa-arrow-left"></i>
               <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#banner-main" data-bs-slide="next">
+            <button class="slider-buttons carousel-control-next" type="button" data-bs-target="#banner-main" data-bs-slide="next">
                 <i class="fa-solid fa-arrow-right"></i>
               <span class="visually-hidden">Next</span>
             </button>
@@ -153,7 +178,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-3">
-                    <div class="port-img mb-3">
+                    <div class="port-img mb-lg-3">
                         <img src="images/portfolio_items/img01.jpg" alt="">
                         <div class="overlay">
                             <i class="fa-solid fa-magnifying-glass-plus venobox" href="images/portfolio_items/img01.jpg" data-gall="true"></i>
@@ -168,7 +193,7 @@
                 </div>
                 
                 <div class="col-lg-3">
-                    <div class="port-img-2 mb-3">
+                    <div class="port-img-2 mb-lg-3">
                         <img src="images/portfolio_items/img02.jpg" alt="">
                         <div class="overlay">
                             <i class="fa-solid fa-magnifying-glass-plus venobox" href="images/portfolio_items/img02.jpg" data-gall="true"></i>
@@ -183,7 +208,7 @@
                 </div>
                 
                 <div class="col-lg-3">
-                    <div class="port-img mb-3">
+                    <div class="port-img mb-lg-3">
                         <img src="images/portfolio_items/img03.jpg" alt="">
                         <div class="overlay">
                             <i class="fa-solid fa-magnifying-glass-plus venobox" href="images/portfolio_items/img03.jpg" data-gall="true"></i>
@@ -198,7 +223,7 @@
                 </div>
                 
                 <div class="col-lg-3">
-                    <div class="port-img-2 mb-3">
+                    <div class="port-img-2 mb-lg-3">
                         <img src="images/portfolio_items/img04.jpg" alt="">
                         <div class="overlay">
                             <i class="fa-solid fa-magnifying-glass-plus venobox" href="images/portfolio_items/img04.jpg" data-gall="true"></i>
@@ -234,14 +259,14 @@
                                 </div>
                             </div>
                             <div class="serv-r">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem adipisci provident eligendi eius dolorem. Officia ut perferendis, nulla debitis reprehenderit tempore commodi! Error ab quas soluta fuga ipsum architecto cum consectetur, numquam ad. Adipisci nam, molestiae ab praesentium harum sint tenetur perspiciatis aspernatur excepturi dolore.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <span>Quidem adipisci provident eligendi eius dolorem. Officia ut perferendis, nulla debitis reprehenderit tempore commodi! Error ab quas soluta fuga ipsum architecto cum consectetur, numquam ad. Adipisci nam, molestiae ab praesentium harum sint tenetur perspiciatis aspernatur excepturi dolore.</span> </p>
                             </div>
                         </div>
                     </div>
                     <div class="serv-col">
                         <div class="serv-conts">
                             <div class="serv-r">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem adipisci provident eligendi eius dolorem. Officia ut perferendis, nulla debitis reprehenderit tempore commodi! Error ab quas soluta fuga ipsum architecto cum consectetur, numquam ad. Adipisci nam, molestiae ab praesentium harum sint tenetur perspiciatis aspernatur excepturi dolore.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <span>Quidem adipisci provident eligendi eius dolorem. Officia ut perferendis, nulla debitis reprehenderit tempore commodi! Error ab quas soluta fuga ipsum architecto cum consectetur, numquam ad. Adipisci nam, molestiae ab praesentium harum sint tenetur perspiciatis aspernatur excepturi dolore.</span> </p>
                             </div>
                             <div class="serv-c">
                                 <div class="servimg">
@@ -264,14 +289,14 @@
                                 </div>
                             </div>
                             <div class="serv-r">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem adipisci provident eligendi eius dolorem. Officia ut perferendis, nulla debitis reprehenderit tempore commodi! Error ab quas soluta fuga ipsum architecto cum consectetur, numquam ad. Adipisci nam, molestiae ab praesentium harum sint tenetur perspiciatis aspernatur excepturi dolore.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <span>Quidem adipisci provident eligendi eius dolorem. Officia ut perferendis, nulla debitis reprehenderit tempore commodi! Error ab quas soluta fuga ipsum architecto cum consectetur, numquam ad. Adipisci nam, molestiae ab praesentium harum sint tenetur perspiciatis aspernatur excepturi dolore.</span> </p>
                             </div>
                         </div>
                     </div>
                     <div class="serv-col">
                         <div class="serv-conts">
                             <div class="serv-r">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem adipisci provident eligendi eius dolorem. Officia ut perferendis, nulla debitis reprehenderit tempore commodi! Error ab quas soluta fuga ipsum architecto cum consectetur, numquam ad. Adipisci nam, molestiae ab praesentium harum sint tenetur perspiciatis aspernatur excepturi dolore.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <span>Quidem adipisci provident eligendi eius dolorem. Officia ut perferendis, nulla debitis reprehenderit tempore commodi! Error ab quas soluta fuga ipsum architecto cum consectetur, numquam ad. Adipisci nam, molestiae ab praesentium harum sint tenetur perspiciatis aspernatur excepturi dolore.</span> </p>
                             </div>
                             <div class="serv-c">
                                 <div class="servimg">
@@ -294,14 +319,14 @@
                                 </div>
                             </div>
                             <div class="serv-r">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem adipisci provident eligendi eius dolorem. Officia ut perferendis, nulla debitis reprehenderit tempore commodi! Error ab quas soluta fuga ipsum architecto cum consectetur, numquam ad. Adipisci nam, molestiae ab praesentium harum sint tenetur perspiciatis aspernatur excepturi dolore.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <span>Quidem adipisci provident eligendi eius dolorem. Officia ut perferendis, nulla debitis reprehenderit tempore commodi! Error ab quas soluta fuga ipsum architecto cum consectetur, numquam ad. Adipisci nam, molestiae ab praesentium harum sint tenetur perspiciatis aspernatur excepturi dolore.</span> </p>
                             </div>
                         </div>
                     </div>
                     <div class="serv-col">
                         <div class="serv-conts">
                             <div class="serv-r">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem adipisci provident eligendi eius dolorem. Officia ut perferendis, nulla debitis reprehenderit tempore commodi! Error ab quas soluta fuga ipsum architecto cum consectetur, numquam ad. Adipisci nam, molestiae ab praesentium harum sint tenetur perspiciatis aspernatur excepturi dolore.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <span>Quidem adipisci provident eligendi eius dolorem. Officia ut perferendis, nulla debitis reprehenderit tempore commodi! Error ab quas soluta fuga ipsum architecto cum consectetur, numquam ad. Adipisci nam, molestiae ab praesentium harum sint tenetur perspiciatis aspernatur excepturi dolore.</span> </p>
                             </div>
                             <div class="serv-c">
                                 <div class="servimg">
@@ -344,7 +369,7 @@
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star-half"></i>
                                 </div>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's ardy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type ook. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially changed. orem Ipsum is simply dummy text of the printing.</p>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's ardy text ever since the 1500s,<span> when an unknown printer took a galley of type and scrambled it to make a type ook. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially changed. orem Ipsum is simply dummy text of the printing.</span></p>
                                 <h4>David M.</h4>
                                 <div class="testy-quotes">
                                     <i class="fa-solid fa-quote-left"></i>
@@ -368,7 +393,7 @@
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star-half"></i>
                                 </div>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's ardy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type ook. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially changed. orem Ipsum is simply dummy text of the printing.</p>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's ardy text ever since the 1500s,<span> when an unknown printer took a galley of type and scrambled it to make a type ook. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially changed. orem Ipsum is simply dummy text of the printing.</span></p>
                                 <h4>Anne Floyde</h4>
                                 <div class="testy-quotes">
                                     <i class="fa-solid fa-quote-left"></i>
@@ -392,7 +417,7 @@
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                 </div>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's ardy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type ook. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially changed. orem Ipsum is simply dummy text of the printing.</p>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's ardy text ever since the 1500s,<span> when an unknown printer took a galley of type and scrambled it to make a type ook. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially changed. orem Ipsum is simply dummy text of the printing.</span></p>
                                 <h4>Elizabeth</h4>
                                 <div class="testy-quotes">
                                     <i class="fa-solid fa-quote-left"></i>
@@ -416,7 +441,7 @@
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star-half"></i>
                                 </div>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's ardy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type ook. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially changed. orem Ipsum is simply dummy text of the printing.</p>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's ardy text ever since the 1500s,<span> when an unknown printer took a galley of type and scrambled it to make a type ook. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially changed. orem Ipsum is simply dummy text of the printing.</span></p>
                                 <h4>M. John</h4>
                                 <div class="testy-quotes">
                                     <i class="fa-solid fa-quote-left"></i>
@@ -440,7 +465,7 @@
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                 </div>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's ardy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type ook. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially changed. orem Ipsum is simply dummy text of the printing.</p>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's ardy text ever since the 1500s,<span> when an unknown printer took a galley of type and scrambled it to make a type ook. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially changed. orem Ipsum is simply dummy text of the printing.</span></p>
                                 <h4>Aveline J.</h4>
                                 <div class="testy-quotes">
                                     <i class="fa-solid fa-quote-left"></i>
