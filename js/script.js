@@ -29,7 +29,7 @@ $(function(){
     centerMode: true,
     centerPadding: '0',
     rows: 0,
-    autoplay: true,
+    autoplay: false,
     pauseOnHover: false,
     autoplaySpeed: 3000,
     arrows: true,
@@ -41,5 +41,12 @@ $(function(){
   $('.counter').counterUp({
     delay: 10,
     time: 1000,
-});
+  });
+  $('p.cross').on("click", () =>{
+    $('.mini-toggle-list').css('transform','scaleX(0)')
+    $('.mini-toggle-list').css('transformOrigin','right')
+  })
+  $('p.mini-toggle').on("click", () =>{
+    $('.mini-toggle-list').css('transform','scaleX(1)')
+  })
 })
