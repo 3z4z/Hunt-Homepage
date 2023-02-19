@@ -1,0 +1,288 @@
+@media (min-width: 576px) and (max-width: 992px) { 
+    .common-title h2{
+        font-size: 26px;
+        padding-bottom: 10px !important;
+    }
+    .col-lg-4, 
+    .col-lg-3,
+    .col-lg-6{
+        padding: 0 !important;
+    }
+    .common-title p{
+        padding: 0 50px 25px !important;
+        font-size: 12px;
+    }
+    .navbar{
+        background: #000a;
+        position: absolute;
+    }
+    .navbar-brand img{
+        width: 80%
+    }
+    .navbar-toggler{
+        visibility: hidden;
+    }
+    p.mini-toggle{
+        position: absolute;
+        right: 0;
+        color: #fff;
+        margin-right: 20px !important;
+    }
+    ul.mini-toggle-list{
+        transform-origin: right;
+        transform: scaleX(0);
+        width: 100vw;
+        transition: all linear 0.3s;
+        height: 100vh;
+        padding-top: 20% !important;
+        top: 0;
+        background: #000;
+        left: 0;
+        text-align: center;
+        position: absolute;
+    }
+    ul.mini-toggle-list li:nth-child(n+2){
+        margin-bottom: 20px;
+    }
+    p.cross{
+        cursor: pointer;
+        color: #fff;
+        position: absolute;
+        top: 22px;
+        right: 40px;
+    }
+    ul.mini-toggle-list li a{
+        color: #fff;
+    }
+    /* banner */
+    .carousel-item{
+        padding: 180px 0 100px;
+    }
+    #banner button.slider-buttons{
+        display: none;
+    }
+    .carousel-inner .carousel-item{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%) !important;
+    }
+    .banner-texts h5{
+        font-size: 23px;
+    }
+    .banner-texts h1{
+        font-size: 36px;
+    }
+    .banner-texts p{
+        padding: 10px 40px 20px !important;
+        font-size: 12px;
+    }
+    .banner-butts{
+        display: flex;
+        align-items: center;
+    }
+    .banner-butts a{
+        width: 120px;
+        font-size: 13px;
+        padding: 10px 0 !important;
+        margin: 0 5px!important;
+    }
+    .circle,
+    .about-top::after,
+    .about-bottom::after,
+    .about-mid-r::after,
+    .about-mid-l::after
+    {
+        display: none;
+    }
+    .about-top,
+    .about-bottom,
+    .about-mid-r,
+    .about-mid-l{
+        box-shadow: 0 0 4px #000a;
+        margin: 0px 50px;
+    }
+    .common-abt h3{
+        padding-top: 22px !important;
+        text-align: center;
+        font-size: 15px;
+    }
+    .common-abt p{
+        padding: 12px 35px 22px !important;
+        text-align: center;
+        font-size: 12px;
+    }
+    .about-center{
+        transform: scale(0.9);
+        margin: 0 auto;
+        width: 80%;;
+    }
+    .aboutTT:hover .about-top{
+        filter: none;
+    }
+    .aboutBB:hover .about-bottom{
+        filter: none;
+    }
+    .aboutML:hover .about-mid-l{
+        filter: none;
+    }
+    .aboutMR:hover .about-mid-r{
+        filter: none;
+    }
+    /* this is portfolio part */
+    #portfolio{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        padding: 60px 0;
+    }
+    #portfolio .row .col-lg-3{
+        margin: 0 auto;
+        width: 65%;
+    }
+    #portfolio .row .col-lg-3 .port-img,
+    #portfolio .row .col-lg-3 .port-img-2{
+        aspect-ratio: 1/1;
+        margin-bottom: 16px !important;
+        
+    }
+    #portfolio .row .col-lg-3 .port-img img,
+    #portfolio .row .col-lg-3 .port-img-2 img{
+        width: 100%;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+    }
+    /* service css */
+    #service .common-title p{
+        margin-bottom: 30px !important;
+    }
+    .serv-r p{
+        padding-top: 24px !important;
+        padding-bottom: 24px !important;
+    }
+    .serv-r p span{
+        display: none;
+    }
+    .serv-r p::after{
+        left: -7px;
+        width: 22px;
+        height: 22px;
+    }
+    .serv-wrap .serv-col:nth-child(even) .serv-r p::after {
+        left: auto;
+        right: -7px;
+    }
+    .servimg{
+        width: auto;
+        height: auto;
+    }
+    .servimg img{
+        transform: scale(0.65);
+    }
+    /* this is testimonial css */
+    #test{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        padding: 60px 0;
+    }
+    .test-text{
+        left: 21%;
+        width: 75%;
+    }
+    .test-text:after {
+        content: '';
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 50%;
+        left: -10px;
+        transform: translateY(-50%) scaleY(1.2)  rotate(45deg);
+        background: #eee;
+        border-radius: 7px;
+    }
+    .test-text p span{
+        display: none;
+    }
+    .test-text .testy-quotes i{
+        font-size: 80px;
+    }
+    .test-text .testy-quotes i.fa-quote-left{
+        top: 34%;
+        left: 22%;
+    }
+    .test-text .testy-quotes i.fa-quote-right{
+        bottom: 34%;
+        right: 22%;
+    }
+    .test-img{
+        margin: 12px 0;
+        transform: scale(0.5);
+    }
+    .test-slide-01 .test-col-01.slick-center .test-img{
+        transform: scale(0.7);
+    }
+    .testlined img{
+        height: 92%;
+    }
+    #pricing{
+        padding: 30px 0;
+    }
+    .price-card{
+        margin: 0 auto;
+        width: 65%;
+    }
+    #counter{
+        margin: 20px 0;
+        padding: 28px 0;
+        transform: skewY(0deg);
+    }
+    .countercol p,.countercol h3, .countercol span{
+        font-size: 16px;
+        transform: skewY(0deg);
+    }
+    #team{
+        padding-bottom: 50px;
+        height: 100%;
+    }
+    #team .row{
+        justify-content: space-around;
+    }
+    #team .row .col-lg-3{
+        width: 46%;
+    }
+    .team-members .drop{
+        display: none;
+    }
+    .team-members{
+        padding-bottom: 60px;
+        margin-bottom: 24px;
+    }
+    .team-members .team-links{
+        bottom: 0;
+    }
+    /* this is partners */
+    #partners{
+        padding: 30px 0;
+        transform: skewY(0deg);
+    }
+    .partcol img{
+        transform: skewY(0deg);
+        width: 100%;
+    }
+    /* this is footer */
+    #footer .footer-logo{
+        transform: skewY(0);
+    }
+    #footer .footer-logo img{
+        transform: skewY(0);
+    }
+    #footer .row .col-lg-3{
+        width: 48%;
+        margin-bottom: 20px;
+    }
+    .footer-body .footer-part-1 .col-lg-3::after{
+        height: 60px;
+        top: 50px;
+    }
+    .footer-body .footer-part-1 .col-lg-3:nth-child(2)::after{
+        visibility: hidden;
+    }
+    .footer-texts p{
+        font-weight: 400;
+        font-size: 13px;
+    }
+}
